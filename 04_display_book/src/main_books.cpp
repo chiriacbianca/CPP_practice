@@ -3,9 +3,9 @@
 
 // Define the maximum length for the name to use.
 // Specify the length of characters in the content (Excluding the terminator).
-#define MAX_NAME_LEN 10
+#define MAX_NAME_LEN 100
 #define MAX_TITLE_LEN 50
-
+using namespace std;
 struct Author
 {
 	char name[MAX_NAME_LEN + 1];
@@ -20,6 +20,7 @@ struct Author
 	void print()
 	{
 		std::cout << name << std::endl;
+	
 	}
 };
 
@@ -28,20 +29,29 @@ struct Book
 	int id;
 	char title[50];
 
-	int numAuthors;
+	int numAuthors=0;
 	Author authors[5];
 
 	void addAuthor(Author author)
 	{
+		authors[numAuthors] = author;
 		// TODO: add an author to the container authors array.
-		numAuthors++;
+		this->numAuthors++;
 	}
 
 	void print()
 	{
+		cout << endl;
 		std::cout << "Book #" << id << std::endl;
 		std::cout << "------" << std::endl;
 		std::cout << this->title << std::endl;
+		std::cout << "Authors :" << std::endl;
+		for (int i = 0; i < numAuthors; i++) 
+		{	
+			std::cout << i+1 << ' ';
+			authors[i].print();
+		}
+
 
 		// TODO: add all authors
 
@@ -84,6 +94,16 @@ int main()
 	
 	author.setName("Anna Rosling Ronnlund");
 	book3.addAuthor(author);
+
+	Book book4;
+	book4.id = 4;
+	book4.numAuthors = 0;
+	setBookName(book4, "Clean Architecture");
+
+	
+	author.setName("Robert C. Martin");
+	book4.addAuthor(author);
+
 
 	// Display the books
 	book1.print();

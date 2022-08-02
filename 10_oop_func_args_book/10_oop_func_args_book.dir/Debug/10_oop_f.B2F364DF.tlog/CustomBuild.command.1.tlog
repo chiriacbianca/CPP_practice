@@ -1,0 +1,10 @@
+^D:\CPP_PRACCTICE\CPP_PRACTICE\10_OOP_FUNC_ARGS_BOOK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Cpp_pracctice/CPP_practice -BD:/Cpp_pracctice/CPP_practice --check-stamp-file D:/Cpp_pracctice/CPP_practice/10_oop_func_args_book/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

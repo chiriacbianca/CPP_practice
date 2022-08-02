@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/Cpp_pracctice/CPP_practice/25_shared_lion_lib/CMakeLists.txt
+  lion.cpp
+D:\Cpp_pracctice\CPP_practice\24_shared_feline_lib\include\feline.h(25,22): warning C4251: 'Feline::species_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Feline'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\Cpp_pracctice\CPP_practice\25_shared_lion_lib\include\lion.h(25,19): warning C4251: 'Lion::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Lion'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\Cpp_pracctice\CPP_practice\25_shared_lion_lib\include\lion.h(26,25): warning C4251: 'Lion::subspecies_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Lion'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+     Creating library D:/Cpp_pracctice/CPP_practice/25_shared_lion_lib/Debug/25_shared_lion_lib.lib and object D:/Cpp_pracctice/CPP_practice/25_shared_lion_lib/Debug/25_shared_lion_lib.exp
+  25_shared_lion_lib.vcxproj -> D:\Cpp_pracctice\CPP_practice\bin\Debug\25_shared_lion_lib.dll

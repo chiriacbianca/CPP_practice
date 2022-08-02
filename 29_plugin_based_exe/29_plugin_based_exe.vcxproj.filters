@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\domestic_cat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\feline_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\feline_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\guslib\common\simpleexception.cpp">
+      <Filter>guslib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\guslib\system\dynamiclib.cpp">
+      <Filter>guslib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\guslib\system\dynamiclibmanager.cpp">
+      <Filter>guslib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\guslib\util\stringutil.cpp">
+      <Filter>guslib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\include\domestic_cat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\include\feline_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\include\feline_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Cpp_pracctice\CPP_practice\29_plugin_based_exe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{15943482-E5AB-3969-B40A-CF0CA2E3D28E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{79808C28-907F-31E5-AE91-1D1631E0B9FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guslib">
+      <UniqueIdentifier>{3845D9B0-5D26-32C0-B90F-0B19B5E8BA79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

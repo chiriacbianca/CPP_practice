@@ -5,6 +5,10 @@
 
 void printOddOrEven(int number)
 {
+	if (number == 0)
+	{
+		printf("NAN\n");
+	}
 	if (number % 2 == 0)
 	{
 		printf("EVEN\n");
@@ -43,11 +47,13 @@ int main(int argc, char *argv[])
 	std::string argumentAsString = argv[1];
 	const char* argumentAsCharArray = argumentAsString.c_str();
 
+	number = atoi(argv[1]);
+
 	//number = argv[1]; // No
 	//should use atoi?
 	// or std::stoi?
 
-	std::cout << argumentAsString << std::endl; // i think this should be removed
+	//std::cout << argumentAsString << std::endl; // i think this should be removed
 
 	// --------------- stop
 
